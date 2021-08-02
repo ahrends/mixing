@@ -52,6 +52,10 @@ options.measures = ["staticFC", "mixing"];
 Results = evaluate_HMM_params(tc_dir, HMM_outputdir, results_dir, options);
 
 %% simulate timeseries
+% In the paper, we use rsFMRI of subject 100206 from HCP S1200 release in
+% groupICA50 parcellation as example time course (available from 
+% ConnectomeDB at https://db.humanconnectome.org/). The example HMM used 
+% for the simulationscan be found in the folder /example_data
 
 example_dir = '/path/to/example/timecourse/and/example/HMM';
 sim_outputdir = '/path/where/simulated/timeseries/should/be/saved';
