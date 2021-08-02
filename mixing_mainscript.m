@@ -1,4 +1,4 @@
-%% Main script for paper 
+%% Main script for paper
 % "Data and model considerations for estimating time-varying functional connectivity in fMRI" 
 % (Ahrends et al., 2021)
 %
