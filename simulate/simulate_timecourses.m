@@ -5,7 +5,8 @@ function [X,T] = simulate_timecourses(example_dir, outputdir, options)
 % on HCP REST1 in groupICA50
 %
 % INPUT:
-% example_dir:      directory where some example timecourse
+% example_dir:      directory where some example timecourse (e.g. subject 
+%                   100206 from HCP S1200 in group ICA50 parcellation)
 %                   (example_tc.mat) and example HMM (example_HMM.mat) can
 %                   be found
 % outputdir:        directory where simulated timeseries should be saved
