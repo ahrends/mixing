@@ -177,7 +177,7 @@ if ~isfield(options, 'nregions'); warning('Setting number of regions to default 
             condNames{1,1} = 'REST1';
             
             [C_concat, groupmean] = make_connectomes(data_FC, [], condNames);
-            Results.statFC_similarity = corr(C_concat(:),groupmean(:));
+            Results.staticFC_similarity = corr(C_concat(:),groupmean(:));
             
         end
         
@@ -206,13 +206,14 @@ if ~isfield(options, 'nregions'); warning('Setting number of regions to default 
             
             %% get maximum fractional occupancy (max. FO)
             
-            Results.meanmaxFO = nanmean(HMM.maxFO);
+            Results.mean_maxFO = nanmean(HMM.maxFO);
             Results.maxFO = HMM.maxFO;
             Results.FO = HMM.FO;
             
         end 
+        save(results_file, 'Results');
     end
-    save(results_file, 'Results');
+    
 end
 
 
