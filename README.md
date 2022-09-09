@@ -1,5 +1,5 @@
 # Mixing
-## Code for paper "Data and model considerations for estimating time-varying functional connectivity in fMRI" (Ahrends et al. 2021)
+## Code for paper "Data and model considerations for estimating time-varying functional connectivity in fMRI" (Ahrends et al. NeuroImage 2022)
 
 Contains all code to run and evaluate HMMs on the HCP data with varying secondary parameters, to simulate fMRI timeseries, run and evaluate HMMs on these simulated timeseries, to quantify the influence of different parameters on model stasis using SEM, and to reproduce figures. Dependencies: [HMM-MAR toolbox](https://github.com/OHBA-analysis/HMM-MAR) and [FSLnets](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLNets) in Matlab, and [piecewiseSEM](https://cran.r-project.org/web/packages/piecewiseSEM/) in R. 
 
